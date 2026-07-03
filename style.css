@@ -6,7 +6,7 @@
 }
 
 body {
-  background: radial-gradient(circle at top, #1b1f5c, #050816 65%);
+  background: radial-gradient(circle at top, #1a0533, #07010f 65%);
   color: white;
   overflow-x: hidden;
 }
@@ -21,13 +21,15 @@ header {
   top: 0;
   z-index: 100;
   backdrop-filter: blur(15px);
-  background: rgba(5, 8, 22, 0.6);
+  background: rgba(7, 1, 15, 0.75);
 }
 
 .logo {
   font-size: 26px;
   font-weight: 700;
-  color: #7df9ff;
+  background: linear-gradient(90deg, #00f0ff, #ff6eb4);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 nav a {
@@ -39,7 +41,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #7df9ff;
+  color: #ff6eb4;
 }
 
 .nav-btn,
@@ -48,7 +50,7 @@ nav a:hover {
   padding: 11px 24px;
   border: none;
   border-radius: 25px;
-  background: linear-gradient(135deg, #00d4ff, #8a2be2);
+  background: linear-gradient(135deg, #ff2d78, #7b2fff);
   color: white;
   cursor: pointer;
   font-weight: 600;
@@ -57,7 +59,7 @@ nav a:hover {
 
 button:hover {
   transform: scale(1.07);
-  box-shadow: 0 0 25px #00d4ff;
+  box-shadow: 0 0 25px #ff2d78;
 }
 
 .hero {
@@ -77,14 +79,14 @@ button:hover {
   font-size: 58px;
   line-height: 1.1;
   margin-bottom: 24px;
-  background: linear-gradient(90deg, #7df9ff, #b983ff);
+  background: linear-gradient(90deg, #00f0ff, #ff6eb4, #a855f7);
   -webkit-background-clip: text;
   color: transparent;
 }
 
 .hero-content p {
   font-size: 18px;
-  color: #cfd6ff;
+  color: #d4b8ff;
   line-height: 1.7;
   margin-bottom: 30px;
 }
@@ -96,7 +98,7 @@ button:hover {
 
 .outline {
   background: transparent !important;
-  border: 1px solid #7df9ff !important;
+  border: 1px solid #00f0ff !important;
 }
 
 .ai-orbit {
@@ -111,20 +113,20 @@ button:hover {
 .circle.main {
   width: 130px;
   height: 130px;
-  background: linear-gradient(135deg, #00d4ff, #8a2be2);
+  background: linear-gradient(135deg, #ff2d78, #7b2fff);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 42px;
   font-weight: bold;
-  box-shadow: 0 0 45px #00d4ff;
+  box-shadow: 0 0 55px #ff2d78, 0 0 90px rgba(123, 47, 255, 0.5);
   z-index: 5;
 }
 
 .orbit {
   position: absolute;
-  border: 1px solid rgba(125, 249, 255, 0.35);
+  border: 1px solid rgba(0, 240, 255, 0.4);
   border-radius: 50%;
   animation: rotate 12s linear infinite;
 }
@@ -134,12 +136,12 @@ button:hover {
   top: -18px;
   left: 50%;
   transform: translateX(-50%);
-  background: #10173d;
+  background: #1a023a;
   padding: 8px 13px;
   border-radius: 20px;
-  color: #7df9ff;
+  color: #00f0ff;
   font-size: 14px;
-  box-shadow: 0 0 15px #00d4ff;
+  box-shadow: 0 0 15px #7b2fff;
 }
 
 .orbit1 {
@@ -181,7 +183,9 @@ button:hover {
 .contact h2 {
   font-size: 38px;
   margin-bottom: 40px;
-  color: #7df9ff;
+  background: linear-gradient(90deg, #00f0ff, #ff6eb4);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .cards,
@@ -196,24 +200,24 @@ button:hover {
   background: rgba(255, 255, 255, 0.08);
   padding: 30px;
   border-radius: 22px;
-  border: 1px solid rgba(125, 249, 255, 0.2);
+  border: 1px solid rgba(168, 85, 247, 0.3);
   transition: 0.4s;
 }
 
 .card:hover,
 .tool-grid div:hover {
   transform: translateY(-12px);
-  box-shadow: 0 0 30px rgba(0, 212, 255, 0.4);
-  border-color: #7df9ff;
+  box-shadow: 0 0 30px rgba(255, 45, 120, 0.4);
+  border-color: #ff6eb4;
 }
 
 .card h3 {
-  color: #b983ff;
+  color: #ff6eb4;
   margin-bottom: 15px;
 }
 
 .card p {
-  color: #cfd6ff;
+  color: #d4b8ff;
   line-height: 1.6;
 }
 
@@ -224,7 +228,7 @@ button:hover {
 }
 
 .contact p {
-  color: #cfd6ff;
+  color: #d4b8ff;
   margin-bottom: 25px;
   font-size: 18px;
 }
@@ -233,7 +237,7 @@ footer {
   text-align: center;
   padding: 25px;
   background: rgba(0, 0, 0, 0.35);
-  color: #cfd6ff;
+  color: #d4b8ff;
 }
 
 @media (max-width: 900px) {
