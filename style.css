@@ -6,7 +6,7 @@
 }
 
 body {
-  background: radial-gradient(circle at top, #1a0533, #07010f 65%);
+  background: radial-gradient(circle at top, #0f1e3d, #020814 65%);
   color: white;
   overflow-x: hidden;
 }
@@ -21,13 +21,13 @@ header {
   top: 0;
   z-index: 100;
   backdrop-filter: blur(15px);
-  background: rgba(7, 1, 15, 0.75);
+  background: rgba(2, 8, 20, 0.85);
 }
 
 .logo {
   font-size: 26px;
   font-weight: 700;
-  background: linear-gradient(90deg, #00f0ff, #ff6eb4);
+  background: linear-gradient(90deg, #3b9fc2, #6fc3df);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -41,7 +41,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ff6eb4;
+  color: #6fc3df;
 }
 
 .nav-btn,
@@ -50,7 +50,7 @@ nav a:hover {
   padding: 11px 24px;
   border: none;
   border-radius: 25px;
-  background: linear-gradient(135deg, #ff2d78, #7b2fff);
+  background: linear-gradient(135deg, #2b7a9e, #1e5a7a);
   color: white;
   cursor: pointer;
   font-weight: 600;
@@ -59,7 +59,7 @@ nav a:hover {
 
 button:hover {
   transform: scale(1.07);
-  box-shadow: 0 0 25px #ff2d78;
+  box-shadow: 0 0 25px #3b9fc2;
 }
 
 .hero {
@@ -79,14 +79,14 @@ button:hover {
   font-size: 58px;
   line-height: 1.1;
   margin-bottom: 24px;
-  background: linear-gradient(90deg, #00f0ff, #ff6eb4, #a855f7);
+  background: linear-gradient(90deg, #6fc3df, #3b9fc2, #2b7a9e);
   -webkit-background-clip: text;
   color: transparent;
 }
 
 .hero-content p {
   font-size: 18px;
-  color: #d4b8ff;
+  color: #c4d8e8;
   line-height: 1.7;
   margin-bottom: 30px;
 }
@@ -98,7 +98,7 @@ button:hover {
 
 .outline {
   background: transparent !important;
-  border: 1px solid #00f0ff !important;
+  border: 1px solid #3b9fc2 !important;
 }
 
 .ai-orbit {
@@ -113,20 +113,20 @@ button:hover {
 .circle.main {
   width: 130px;
   height: 130px;
-  background: linear-gradient(135deg, #ff2d78, #7b2fff);
+  background: linear-gradient(135deg, #2b7a9e, #1e5a7a);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 42px;
   font-weight: bold;
-  box-shadow: 0 0 55px #ff2d78, 0 0 90px rgba(123, 47, 255, 0.5);
+  box-shadow: 0 0 55px #2b7a9e, 0 0 90px rgba(59, 159, 194, 0.5);
   z-index: 5;
 }
 
 .orbit {
   position: absolute;
-  border: 1px solid rgba(0, 240, 255, 0.4);
+  border: 1px solid rgba(59, 159, 194, 0.4);
   border-radius: 50%;
   animation: rotate 12s linear infinite;
 }
@@ -136,12 +136,12 @@ button:hover {
   top: -18px;
   left: 50%;
   transform: translateX(-50%);
-  background: #1a023a;
+  background: #0a1828;
   padding: 8px 13px;
   border-radius: 20px;
-  color: #00f0ff;
+  color: #6fc3df;
   font-size: 14px;
-  box-shadow: 0 0 15px #7b2fff;
+  box-shadow: 0 0 15px #2b7a9e;
 }
 
 .orbit1 {
@@ -183,7 +183,7 @@ button:hover {
 .contact h2 {
   font-size: 38px;
   margin-bottom: 40px;
-  background: linear-gradient(90deg, #00f0ff, #ff6eb4);
+  background: linear-gradient(90deg, #6fc3df, #3b9fc2);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -200,24 +200,24 @@ button:hover {
   background: rgba(255, 255, 255, 0.08);
   padding: 30px;
   border-radius: 22px;
-  border: 1px solid rgba(168, 85, 247, 0.3);
+  border: 1px solid rgba(59, 159, 194, 0.3);
   transition: 0.4s;
 }
 
 .card:hover,
 .tool-grid div:hover {
   transform: translateY(-12px);
-  box-shadow: 0 0 30px rgba(255, 45, 120, 0.4);
-  border-color: #ff6eb4;
+  box-shadow: 0 0 30px rgba(59, 159, 194, 0.4);
+  border-color: #6fc3df;
 }
 
 .card h3 {
-  color: #ff6eb4;
+  color: #6fc3df;
   margin-bottom: 15px;
 }
 
 .card p {
-  color: #d4b8ff;
+  color: #c4d8e8;
   line-height: 1.6;
 }
 
@@ -228,7 +228,7 @@ button:hover {
 }
 
 .contact p {
-  color: #d4b8ff;
+  color: #c4d8e8;
   margin-bottom: 25px;
   font-size: 18px;
 }
@@ -237,7 +237,7 @@ footer {
   text-align: center;
   padding: 25px;
   background: rgba(0, 0, 0, 0.35);
-  color: #d4b8ff;
+  color: #c4d8e8;
 }
 
 @media (max-width: 900px) {
