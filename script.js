@@ -1,4 +1,6 @@
 const buttons = document.querySelectorAll("button");
+const modal = document.getElementById("learnMoreModal");
+const closeBtn = document.querySelector(".modal-close");
 
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
@@ -16,11 +18,30 @@ buttons.forEach((button) => {
     }
     // Check if this is the "Learn More" button
     else if (buttonText === "Learn More") {
-      // Scroll to features section
-      document.getElementById("features")?.scrollIntoView({ behavior: "smooth" });
+      // Open modal instead of scrolling
+      modal.classList.add("show");
     }
     else {
       alert("Welcome to AI Universe!");
     }
   });
+});
+
+// Close modal when clicking the X button
+closeBtn.addEventListener("click", () => {
+  modal.classList.remove("show");
+});
+
+// Close modal when clicking outside the modal content
+modal.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    modal.classList.remove("show");
+  }
+});
+
+// Close modal with Escape key
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && modal.classList.contains("show")) {
+    modal.classList.remove("show");
+  }
 });
